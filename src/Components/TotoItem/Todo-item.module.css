@@ -1,0 +1,33 @@
+.wrapper {
+    border: 1px solid rgb(114, 94, 94);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 8px 0px;
+    background-color: white;
+}
+.btn_controller {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.btn {
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.compl {
+    border: 2px solid rgb(17, 199, 17);
+}
+.active {
+    background-color: rgb(17, 199, 17);
+    padding: 2px;
+}
+.remove {
+    border: 2px solid rgb(226, 45, 45);
+    background-color: rgb(226, 45, 45);
+}
