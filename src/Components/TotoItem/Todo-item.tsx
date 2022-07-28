@@ -4,8 +4,8 @@ import classes from "./Todo-item.module.css"
 
 interface PropTodoItem {
     todo: ITodo,
-    todoDone: any,
-    removeTodo: any,
+    todoDone?: any,
+    removeTodo?: any,
 }
 
 export const TodoItem: FC<PropTodoItem> = ({todo, todoDone, removeTodo}) => {
